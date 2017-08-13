@@ -59,8 +59,8 @@ TEMPLATES = [
     {
         'BACKEND': 'django.template.backends.django.DjangoTemplates',
         'DIRS': [
-            'C:\\Users\\thankod\\myproject\\learning_log\\learning_logs\\templates',
-            'C:\\Users\\thankod\\myproject\\learning_log\\users\\templates',
+            '../learning_logs/templates',
+            '../users/templates',
         ],
         'APP_DIRS': True,
         'OPTIONS': {
